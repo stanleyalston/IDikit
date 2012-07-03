@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e836e29d-d315-4e4e-9d3d-e6bcd2b766de" name="Kent.Aguilar@NGSR8BR83M 2012-07-03 14:55:53" runUser="NGS\Kent.Aguilar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a294cad5-e10d-4bc8-adf4-701eb92826ad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Kent.Aguilar_NGSR8BR83M 2012-07-03 14_55_53">
+      <DeploymentItem filename="R:\IDikit\IDikit\IDikit.Core\bin\Debug\IDikit.Core.dll" />
+      <DeploymentItem filename="R:\IDikit\IDikit\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-03T14:55:53.3020230+08:00" queuing="2012-07-03T14:55:53.3270230+08:00" start="2012-07-03T14:55:53.3320230+08:00" finish="2012-07-03T14:55:58.7840230+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanSaveMember" storage="r:\idikit\idikit\idikit.tests\bin\debug\idikit.tests.dll" id="39dfb9dc-2da8-43ab-db4c-e4cf7b2a33d6">
+      <Execution id="f4290683-43fe-40f7-8a71-7942bb36686a" />
+      <TestMethod codeBase="R:/IDikit/IDikit/IDikit.Tests/bin/Debug/IDikit.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IDikit.Tests.Model.MemberTest, IDikit.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanSaveMember" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="39dfb9dc-2da8-43ab-db4c-e4cf7b2a33d6" executionId="f4290683-43fe-40f7-8a71-7942bb36686a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f4290683-43fe-40f7-8a71-7942bb36686a" testId="39dfb9dc-2da8-43ab-db4c-e4cf7b2a33d6" testName="CanSaveMember" computerName="NGSR8BR83M" duration="00:00:05.2994728" startTime="2012-07-03T14:55:53.3330230+08:00" endTime="2012-07-03T14:55:58.7720230+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4290683-43fe-40f7-8a71-7942bb36686a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method IDikit.Tests.Model.MemberTest.CanSaveMember threw exception: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---&gt; System.Data.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---&gt; System.Data.SqlClient.SqlException: Cannot insert explicit value for identity column in table 'Member' when IDENTITY_INSERT is set to OFF.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task&amp; task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Mapping.Update.Internal.DynamicUpdateCommand.Execute(UpdateTranslator translator, EntityConnection connection, Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+ --- End of inner exception stack trace ---
+    at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+ --- End of inner exception stack trace ---
+    at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at IDikit.Core.Model.Member.Save(Member member) in R:\IDikit\IDikit\IDikit.Core\Model\Member.cs:line 35
+   at IDikit.Tests.Model.MemberTest.CanSaveMember() in R:\IDikit\IDikit\IDikit.Tests\Model\MemberTest.cs:line 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

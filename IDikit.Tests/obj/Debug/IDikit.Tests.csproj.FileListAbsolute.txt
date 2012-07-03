@@ -5,3 +5,6 @@ R:\IDikit\IDikit\IDikit.Tests\obj\Debug\IDikit.Tests.dll
 R:\IDikit\IDikit\IDikit.Tests\obj\Debug\IDikit.Tests.pdb
 R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Core.dll
 R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Core.pdb
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Tests.dll.config
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\EntityFramework.dll
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\EntityFramework.xml

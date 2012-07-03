@@ -2,3 +2,7 @@ R:\IDikit\IDikit\IDikit.Core\bin\Debug\IDikit.Core.dll
 R:\IDikit\IDikit\IDikit.Core\bin\Debug\IDikit.Core.pdb
 R:\IDikit\IDikit\IDikit.Core\obj\Debug\IDikit.Core.dll
 R:\IDikit\IDikit\IDikit.Core\obj\Debug\IDikit.Core.pdb
+R:\IDikit\IDikit\IDikit.Core\obj\Debug\IDikit.Core.csprojResolveAssemblyReference.cache
+R:\IDikit\IDikit\IDikit.Core\bin\Debug\IDikit.Core.dll.config
+R:\IDikit\IDikit\IDikit.Core\bin\Debug\EntityFramework.dll
+R:\IDikit\IDikit\IDikit.Core\bin\Debug\EntityFramework.xml

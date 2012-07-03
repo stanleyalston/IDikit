@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c9ecd320-af9a-4444-b57e-947b44753cc6" name="Kent.Aguilar@NGSR8BR83M 2012-07-03 14:58:14" runUser="NGS\Kent.Aguilar" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a294cad5-e10d-4bc8-adf4-701eb92826ad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Kent.Aguilar_NGSR8BR83M 2012-07-03 14_58_14">
+      <DeploymentItem filename="R:\IDikit\IDikit\IDikit.Core\bin\Debug\IDikit.Core.dll" />
+      <DeploymentItem filename="R:\IDikit\IDikit\packages\EntityFramework.4.3.1\lib\net40\EntityFramework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-03T14:58:14.3920230+08:00" queuing="2012-07-03T14:58:14.4290230+08:00" start="2012-07-03T14:58:14.4320230+08:00" finish="2012-07-03T14:58:19.2840230+08:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanSaveMember" storage="r:\idikit\idikit\idikit.tests\bin\debug\idikit.tests.dll" id="39dfb9dc-2da8-43ab-db4c-e4cf7b2a33d6">
+      <Execution id="a531520e-557d-4f7f-8cce-bc26cb079b07" />
+      <TestMethod codeBase="R:/IDikit/IDikit/IDikit.Tests/bin/Debug/IDikit.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IDikit.Tests.Model.MemberTest, IDikit.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanSaveMember" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="39dfb9dc-2da8-43ab-db4c-e4cf7b2a33d6" executionId="a531520e-557d-4f7f-8cce-bc26cb079b07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a531520e-557d-4f7f-8cce-bc26cb079b07" testId="39dfb9dc-2da8-43ab-db4c-e4cf7b2a33d6" testName="CanSaveMember" computerName="NGSR8BR83M" duration="00:00:04.6811814" startTime="2012-07-03T14:58:14.4340230+08:00" endTime="2012-07-03T14:58:19.2530230+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a531520e-557d-4f7f-8cce-bc26cb079b07">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Saved</Message>
+          <StackTrace>   at IDikit.Tests.Model.MemberTest.CanSaveMember() in R:\IDikit\IDikit\IDikit.Tests\Model\MemberTest.cs:line 33
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

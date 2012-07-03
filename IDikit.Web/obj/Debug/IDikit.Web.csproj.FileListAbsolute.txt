@@ -1,0 +1,9 @@
+R:\IDikit\IDikit\IDikit.Web\bin\IDikit.Web.dll
+R:\IDikit\IDikit\IDikit.Web\bin\IDikit.Web.pdb
+R:\IDikit\IDikit\IDikit.Web\bin\EntityFramework.dll
+R:\IDikit\IDikit\IDikit.Web\bin\EntityFramework.xml
+R:\IDikit\IDikit\IDikit.Web\obj\Debug\IDikit.Web.csprojResolveAssemblyReference.cache
+R:\IDikit\IDikit\IDikit.Web\obj\Debug\IDikit.Web.dll
+R:\IDikit\IDikit\IDikit.Web\obj\Debug\IDikit.Web.pdb
+R:\IDikit\IDikit\IDikit.Web\bin\IDikit.Core.dll
+R:\IDikit\IDikit\IDikit.Web\bin\IDikit.Core.pdb

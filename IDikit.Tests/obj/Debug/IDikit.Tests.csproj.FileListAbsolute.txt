@@ -1,0 +1,7 @@
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Tests.dll
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Tests.pdb
+R:\IDikit\IDikit\IDikit.Tests\obj\Debug\IDikit.Tests.csprojResolveAssemblyReference.cache
+R:\IDikit\IDikit\IDikit.Tests\obj\Debug\IDikit.Tests.dll
+R:\IDikit\IDikit\IDikit.Tests\obj\Debug\IDikit.Tests.pdb
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Core.dll
+R:\IDikit\IDikit\IDikit.Tests\bin\Debug\IDikit.Core.pdb

@@ -1,0 +1,10 @@
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\IDikit.Tests.dll.config
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\IDikit.Tests.dll
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\IDikit.Tests.pdb
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\EntityFramework.dll
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\IDikit.Core.dll
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\IDikit.Core.pdb
+R:\IDikit\IDikit\IDikit.Tests\bin\Release\EntityFramework.xml
+R:\IDikit\IDikit\IDikit.Tests\obj\Release\IDikit.Tests.csprojResolveAssemblyReference.cache
+R:\IDikit\IDikit\IDikit.Tests\obj\Release\IDikit.Tests.dll
+R:\IDikit\IDikit\IDikit.Tests\obj\Release\IDikit.Tests.pdb

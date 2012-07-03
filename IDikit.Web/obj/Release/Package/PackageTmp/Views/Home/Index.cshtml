@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="enter-bookmark">
+    Enter Url:<input type="text" id="url" style="width:300px;margin-left:10px;"/>
+
+    <div id="description"></div>
+    <input type="button" value="Save Link" id="save-link"/>
+</div>
+<div id="bookmark-list"></div>
+
+<style>
+    #enter-bookmark
+    {
+        margin-bottom:20px;    
+    }
+    table
+    {
+        width:600px;    
+    }
+    table tr td
+    {
+        border-bottom:1px dotted #ccc;
+        padding:2px;    
+    }
+    table tr td:first-child
+    {
+        width:200px     
+    }
+</style>
+<script type="text/javascript">
+    $(function () {
+        $('#save-link').click(function () {
+            var url = $('#url').val().replace("http://","").replace("www.","");
+            $.getJSON("Home/SaveBookmark/" + url, function (data) {
+                if(data.Output == "Saved"){
+                    ListBookmark();
+                    $('#url').val('').focus();
+                }
+            });
+        });
+
+        ListBookmark();
+
+        function ListBookmark(){
+            $('#bookmark-list').empty().html("<img src=\"@Url.Content("~/Content/Images/loading.gif")\" />");
+            $.getJSON("Home/GetSiteDetails", function (data) {
+                var output = "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\">";
+                output += "<tr>";
+                output += "<td>Title</td>";
+                output += "<td>Link</td>";
+                output += "</tr>";
+                for (var i = 0; i < data.length; i++) {
+                    output += "<tr>";
+                    output += "<td>" + data[i].Title + "</td>";
+                    output += "<td>" + data[i].Link + "</td>";
+                    output += "</tr>";
+                }
+                output += "</table>";
+
+                $('#bookmark-list').empty().html(output);
+            });
+        }
+    });
+</script>

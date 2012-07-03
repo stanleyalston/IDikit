@@ -1,0 +1,7 @@
+R:\IDikit\IDikit\IDikit.Core\bin\Release\IDikit.Core.dll.config
+R:\IDikit\IDikit\IDikit.Core\bin\Release\IDikit.Core.dll
+R:\IDikit\IDikit\IDikit.Core\bin\Release\IDikit.Core.pdb
+R:\IDikit\IDikit\IDikit.Core\bin\Release\EntityFramework.dll
+R:\IDikit\IDikit\IDikit.Core\bin\Release\EntityFramework.xml
+R:\IDikit\IDikit\IDikit.Core\obj\Release\IDikit.Core.dll
+R:\IDikit\IDikit\IDikit.Core\obj\Release\IDikit.Core.pdb
